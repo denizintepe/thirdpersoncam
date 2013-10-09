@@ -1,18 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Weapons\PerFrameRaycast.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Managers\SpawnArea.cs">
     <Files>
-      <File FileName="Assets\Scripts\MyPlayer\PlayerMoveController.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MyPlayer\PlayerMoveController.cs" Line="216" Column="108" />
-      <File FileName="Assets\Scripts\MyPlayer\FreeMovementMotor.cs" Line="21" Column="1" />
-      <File FileName="Assets\Scripts\MyPlayer\MovementMotor.cs" Line="18" Column="17" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Managers\Spawner.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Managers\Spawner.cs" Line="127" Column="2" />
-      <File FileName="Assets\Scripts\Weapons\SimpleBullet.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Weapons\SimpleBullet.cs" Line="23" Column="36" />
-      <File FileName="Assets\Scripts\Weapons\PerFrameRaycast.js" Line="6" Column="1" />
-      <File FileName="Assets\Scripts\Weapons\PerFrameRaycast.cs" Line="17" Column="49" />
+      <File FileName="Assets\Scripts\Weapons\AutoFire.cs" Line="83" Column="35" />
+      <File FileName="Assets\Scripts\Modules\SignalSender.cs" Line="29" Column="27" />
+      <File FileName="Assets\Scripts\Weapons\Health.cs" Line="47" Column="6" />
+      <File FileName="Assets\Scripts\Weapons\SimpleBullet.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Managers\Spawner.cs" Line="30" Column="42" />
+      <File FileName="Assets\Scripts\Managers\SpawnArea.cs" Line="27" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

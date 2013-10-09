@@ -56,17 +56,17 @@ public class AutoFire : MonoBehaviour {
 						targetHealth.OnDamage (damagePerSecond / frequency, -spawnPoint.forward);
 					}
 					*/
-					
+					//Debug.Log("Hit !"+hitInfo.transform.name);
 					
 	
 					// Get the rigidbody if any
-					if (hitInfo.rigidbody) 
-					{
-						Debug.Log("Hit !");
-						// Apply force to the target object at the position of the hit point
-						Vector3 force  = transform.forward * (forcePerSecond / frequency);
-						hitInfo.rigidbody.AddForceAtPosition (force, hitInfo.point, ForceMode.Impulse);
-					}
+//					if (hitInfo.rigidbody) 
+//					{
+//						
+//						// Apply force to the target object at the position of the hit point
+//						Vector3 force  = transform.forward * (forcePerSecond / frequency);
+//						hitInfo.rigidbody.AddForceAtPosition (force, hitInfo.point, ForceMode.Impulse);
+//					}
 					
 					
 					
@@ -74,7 +74,8 @@ public class AutoFire : MonoBehaviour {
 					//var sound : AudioClip = MaterialImpactManager.GetBulletHitSound (hitInfo.collider.sharedMaterial);
 					//AudioSource.PlayClipAtPoint (sound, hitInfo.point, hitSoundVolume);
 	
-					bullet.dist = hitInfo.distance;
+					//Destroy bullet (just visualy)
+					//bullet.dist = hitInfo.distance;
 				}
 				else {
 					bullet.dist = 1000;

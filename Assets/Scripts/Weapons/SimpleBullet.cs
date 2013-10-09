@@ -24,4 +24,6 @@ public class SimpleBullet : MonoBehaviour {
 			Spawner.Destroy (gameObject);
 		}
 	}
+	
+	
 }
